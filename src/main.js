@@ -14,6 +14,7 @@ import Mock from './mock'
 Mock.bootstrap();
 import 'font-awesome/css/font-awesome.min.css'
 
+'this is github test'
 Vue.use(ElementUI)
 Vue.use(VueRouter)
 Vue.use(Vuex)
@@ -49,4 +50,3 @@ new Vue({
   //components: { App }
   render: h => h(App)
 }).$mount('#app')
-
